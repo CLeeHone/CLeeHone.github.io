@@ -203,7 +203,7 @@ a:hover {
 .letter-16 { animation: 0.9s appear-from-bottom-fade ease-out; }
 
 .headline { 
-    font-size: 6em; 
+    font-size: 3.5em; 
     font-family: Consolas;
     margin-left: -0.05em;
 }

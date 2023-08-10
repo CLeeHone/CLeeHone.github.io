@@ -279,26 +279,25 @@ a:hover {
 
     /* Name letter container */
     .letter-container {
-        display: inline-block;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12vw;
-        overflow: hidden;
-        height: fit-content;
+        font-size: 14vw;
     }
 
     /* Subtitle */
     .headline {
         font-size: 9vw;
-        margin-top: 0.7em;
+    }
+
+    .small-headline {
+        font-size: 9vw;
     }
 
     .introduction {
-        font-size: medium;
+        font-size: 6vw;
         margin-bottom: 1em;
     }
 
     #first-intro-paragraph {
-        margin-top: 2em;
+        margin-top: 6vw;
         margin-bottom: 1em;
     }
 
@@ -307,7 +306,7 @@ a:hover {
     }
 
     .work-paragraph {
-        font-size: medium;
+        font-size: 6vw;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 1.5em;

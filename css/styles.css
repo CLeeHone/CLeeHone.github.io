@@ -243,7 +243,7 @@ a:hover {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1130px) {
     .navbar {
         background-color: rgb(207, 229, 207);
         margin-bottom: 1.5em;
@@ -281,7 +281,7 @@ a:hover {
     .letter-container {
         display: inline-block;
         font-family: 'Montserrat', sans-serif;
-        font-size: 16vw;
+        font-size: 12vw;
         overflow: hidden;
         height: fit-content;
     }

@@ -1,0 +1,335 @@
+body {
+    background-color: #222831;
+    margin-bottom: 5%;
+}
+
+.body-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a { 
+    color: #ff606dff;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ff606dff;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #30475E;
+    width: 100%;
+    padding-right: 5%;
+}
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler, 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3.5px;
+    width: 100%;
+    background:#ff606dff;
+    border-radius: 2px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* Position when menu is clicked */
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -10px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 10px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.navbar-brand {
+    padding-left: 2%;
+}
+
+.navbar-icon {
+    color: #ff606dff;
+    font-family: Consolas;
+    font-size: larger;
+    max-width: 20px;
+    margin-top: -5px;
+    margin-left: 1.5em;
+}
+
+.navbar-icon:hover {
+    color: #ff606dff;
+    text-decoration:overline underline 2px;
+    text-underline-offset: 7px;
+    text-decoration-color: #ff606dff;
+}
+
+.navbar-icon-img {
+    max-width: 20px;
+    margin-top: -5px;
+    margin-left: 1.5em;
+    cursor: pointer;
+}
+
+.navbar-icon-img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.1s;
+}
+
+.navbar-nav>li {
+    font-size: 2.5ch;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#linkedin-icon {
+    margin-left: 1.7em;
+    margin-top: -0.5em;
+}
+
+#github-icon {
+    max-width: 20px; 
+    margin-top: -0.4em;
+}
+
+#codewars-icon {
+    margin-top: -0.35em;
+}
+
+#theme-toggle {
+    margin-top: -0.4em;
+    margin-left: 1.8em;
+}
+
+.fa.fa-linkedin, .fa.fa-github {
+    color: black;
+}
+
+.title-container {
+    min-width: 50%;
+    margin-left: -1em;
+}
+
+/* Name letter container */
+.letter-container {
+    color:azure;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11em;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.headline {
+    color: azure;
+}
+
+.introduction {
+    color: azure;
+    margin-bottom: 1em;
+}
+
+/* Increases the size of each letter when hovered over */
+.letter-container:hover { transform:scale(1.01) }
+
+.letter-1 { animation: 0.3s appear-from-bottom-fade ease-out; }
+
+.letter-2 { animation: 0.4s appear-from-bottom-fade ease-out; }
+
+.letter-3 { animation: 0.5s appear-from-bottom-fade ease-out; }
+
+.letter-4 { animation: 0.3s appear-from-bottom-fade ease-out; }
+
+.letter-5 { animation: 0.35s appear-from-bottom-fade ease-out; }
+
+.letter-6 { animation: 0.4s appear-from-bottom-fade ease-out; }
+
+.letter-7 { animation: 0.45s appear-from-bottom-fade ease-out; }
+
+.letter-8 { animation: 0.5s appear-from-bottom-fade ease-out; }
+
+.letter-9 { animation: 0.55s appear-from-bottom-fade ease-out; }
+
+.letter-10 { animation: 0.6s appear-from-bottom-fade ease-out; }
+
+.letter-11 { animation: 0.65s appear-from-bottom-fade ease-out; }
+
+.letter-12 { animation: 0.7s appear-from-bottom-fade ease-out; }
+
+.letter-13 { animation: 0.75s appear-from-bottom-fade ease-out; }
+
+.letter-14 { animation: 0.8s appear-from-bottom-fade ease-out; }
+
+.letter-15 { animation: 0.85s appear-from-bottom-fade ease-out; }
+
+.letter-16 { animation: 0.9s appear-from-bottom-fade ease-out; }
+
+.headline { 
+    font-size: 6ch; 
+    font-family: Consolas;
+    margin-left: -0.05em;
+}
+
+.small-headline { 
+    font-size: 4ch; 
+    font-family: Consolas;
+    margin-bottom: 0.5em;
+}
+
+.introduction {
+    font-family: Consolas;
+    font-size: 14pt;
+    margin-bottom: 1em;
+}
+
+#first-intro-paragraph {
+    font-family: Consolas;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.work-paragraph {
+    font-family: Consolas;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: azure;
+    margin-bottom: 2%;
+}
+
+@keyframes appear-from-bottom-fade {
+    0% {
+        opacity: 0%;
+        transform: translateY(175%);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .navbar {
+        background-color: #30475E;
+        margin-bottom: 1.5em;
+        padding-right: 5%;
+        width: 100%;
+    }
+
+    #linkedin-icon {
+        margin-top: -0.5em;
+    }
+    
+    #github-icon {
+        max-width: 20px; 
+        margin-top: -0.4em;
+        margin-left: 1.62em;
+    }
+    
+    #codewars-icon {
+        margin-top: -0.35em;
+        margin-left: 1.62em;
+    }
+    
+    #theme-toggle {
+        margin-top: 0.6em;
+        margin-left: 1.59em;
+    }
+
+    /* Name letter container */
+    .letter-container {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16vw;
+        overflow: hidden;
+        height: fit-content;
+    }
+
+    /* Subtitle */
+    .headline {
+        font-size: 9vw;
+        margin-top: 0.7em;
+    }
+
+    .introduction {
+        font-family: Consolas;
+        font-size: medium;
+        margin-bottom: 1em;
+    }
+
+    #first-intro-paragraph {
+        font-family: Consolas;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    #last-intro-paragraph {
+        margin-bottom: 2.5em;
+    }
+
+    .work-paragraph {
+        font-family: Consolas;
+        font-size: medium;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 1.5em;
+    }
+}

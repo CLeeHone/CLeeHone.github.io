@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link id ="stylesheet" rel="stylesheet" href="css/styles.css">
+        <link rel="preload" href="images/linkedin-icon.png">
+        <link rel="preload" href="images/github-icon.png">
+        <link rel="preload" href="images/codewars.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <title>Experience</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <picture>
+                        <source srcset="images/clh-logo-darker.svg" media="(prefers-color-scheme: dark)">
+                        <img src="images/clh-logo-lighter.svg">
+                    </picture>
+                </a>
+                <button class="navbar-toggler collapsed justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex align-items-center">
+                        <li class="nav-item h-100">
+                            <a class="navbar-icon" href="projects.html">PROJECTS</a>
+                        </li>
+                        <li class="nav-item h-100">
+                            <a class="navbar-icon" href="openSource.html">OPEN SOURCE</a>
+                        </li>
+                        <li class="nav-item h-100">
+                            <a class="nav-link active" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloe-lee-hone/">
+                                <picture>
+                                    <source srcset="images/linkedin-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="navbar-icon-img" id="linkedin-icon" src="images/linkedin-light.svg">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="nav-item h-100">
+                            <a class="nav-link active" target="_blank" rel="noopener noreferrer" href="https://github.com/CLeeHone?tab=repositories">
+                                <picture>
+                                    <source srcset="images/github-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="navbar-icon-img" id="linkedin-icon" src="images/github-light.svg">
+                                </picture>
+                            </a>
+                        </li> 
+                        <li class="nav-item h-100">
+                            <a class="nav-link active" target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/CLeeHone" >
+                                <picture>
+                                    <source srcset="images/codewars-dark.svg" media="(prefers-color-scheme: dark)">
+                                    <img class="navbar-icon-img" id="linkedin-icon" src="images/codewars-light.svg">
+                                </picture>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="body-container">
+            <!-- Page's title with animated letters -->
+            <div clas="title-container">
+                <div class="letter-container">
+                    <div class="letter-1">E</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-2">x</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-3">p</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-9">e</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-9">r</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-10">i</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-11">e</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-12">n</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-13">c</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter-14">e</div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Main content -->
+            <div class="small-headline">A Payment Gateway for the Knowledge Network</div>
+            <div class="introduction">
+                In the Kinaxis Knowledge Network, clients needed to register and purchase RapidResponse training courses without directly interfacing with the Continuous Learning Services team or the Finance team. I 
+                developed a payment gateway using the MVC pattern and a combination of Salesforce Apex, a language with strong syntactical similarities to Java, JavaScript, Aura components, and a payment API. Over the course
+                of this capstone project's duration, I collaborated with multiple departments to ensure I met their needs and functional requirements, conducted extensive debugging, and modified the UI to create an intuitive
+                user experience.
+            </div>
+            <div class="small-headline">The Fitness Tracker</div>
+            <div class="introduction">
+                Kinaxis developed fitness challenges to encourage employees to adopt healthy lifestyles. Activities were originally tracked by regularly monitoring the Kinaxis Strava Club and storing the data in an Excel file. 
+                However, this process required significant manual effort and monopolized valuable resources. To fix this issue, I designed and developed a web application that communicated with the
+                <a href="https://developers.strava.com/" rel="noopener noreferrer" target="_blank">Strava API</a>. The application automated the data collection process and ensured and that the data was both queriable and reliably stored in a relational database.
+                <br>
+                The project consisted of three major components: a C# .NET front-end website, a SQL Server database consisting of four entities, and a Python program that communicated between the Strava API and the database. The front-end
+                website allowed users to sign in through Strava's OAuth2 page and grant us permission to access their activity data. A Python script connected to the MS SQL Server database could then request updated information from the 
+                API and retrieve the most recent activity data. In collaboration with our data team, a PowerBI report was created to visualize the data and communicate updated results.
+            </div>
+            <div class="small-headline">Automating workflows with Groovy</div>
+            <div class="introduction">           
+                The Kinaxis engineering teams use Jira to track their work. However, the out-of-the-box functionality offered by Jira is limited. Our teams wanted to spend their time developing&mdash;not copying 
+                sub-tasks into cloned Issues. Following regular discussions with project managers or business analysts to understand the underlying problem and their request's scope, I developed custom automated rules using Groovy
+                and ScriptRunner. Writing over a dozen Groovy automation rules effectively transfered hundreds of yearly hours from workflow management to active development by minimizing the amount of manual input required
+                from developers when transitioning, moving, or updating their tasks. 
+            </div>
+        </div>
+    </body>
+</html>

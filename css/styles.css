@@ -248,42 +248,9 @@ a:hover {
 }
 
 @media (max-width: 1130px) {
-    .navbar {
-        background-color: rgb(207, 229, 207);
-        margin-bottom: 1.5em;
-        padding-right: 5%;
-        width: 100%;
-    }
-
-    .navbar-icon {
-        color: #3c5c3bff;
-        font-family: Consolas;
-        font-size: larger;
-    }
-
-    #linkedin-icon {
-        margin-top: -0.5em;
-    }
-    
-    #github-icon {
-        max-width: 20px; 
-        margin-top: -0.4em;
-        margin-left: 1.62em;
-    }
-    
-    #codewars-icon {
-        margin-top: -0.35em;
-        margin-left: 1.62em;
-    }
-    
-    #theme-toggle {
-        margin-top: 0.6em;
-        margin-left: 1.59em;
-    }
-
     /* Name letter container */
     .letter-container {
-        font-size: 14vw;
+        font-size: 16vw;
     }
 
     /* Subtitle */
@@ -297,23 +264,14 @@ a:hover {
 
     .introduction {
         font-size: 6vw;
-        margin-bottom: 1em;
     }
 
     #first-intro-paragraph {
         margin-top: 6vw;
-        margin-bottom: 1em;
-    }
-
-    #last-intro-paragraph {
-        margin-bottom: 2.5em;
     }
 
     .work-paragraph {
         font-size: 6vw;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 1.5em;
     }
 }
 /*******************************************\

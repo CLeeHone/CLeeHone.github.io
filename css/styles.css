@@ -208,6 +208,10 @@ a:hover {
     margin-left: -0.05em;
 }
 
+.headline > a {
+    text-underline-offset: 14px;
+}
+
 .small-headline { 
     font-size: 4ch; 
     font-family: Consolas;

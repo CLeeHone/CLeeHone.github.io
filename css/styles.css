@@ -26,7 +26,7 @@ hr {
     margin-bottom: 3em;
 }
 
-img {
+.flex-block > img {
     border: 1px solid black;
 }
 

@@ -20,6 +20,12 @@ a:hover {
     text-underline-offset: 6px;
 }
 
+hr {
+    color: #3c5c3bff;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 .navbar {
     background-color: rgb(207, 229, 207);
     padding-right: 5%;
@@ -223,6 +229,20 @@ a:hover {
     margin-bottom: 1em;
 }
 
+.flex-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.flex-block .flex-block-content {
+    width: 50%;
+    min-width: 500px;
+    display: flex;
+    flex: 1;
+    margin-right: 2em;
+}
+
 #first-intro-paragraph {
     margin-top: 3em;
     margin-bottom: 1em;
@@ -254,12 +274,10 @@ a:hover {
         width: 100%;
     }
 
-    /* Name letter container */
     .letter-container {
         font-size: 16vw;
     }
 
-    /* Subtitle */
     .headline {
         font-size: 9vw;
     }
@@ -303,6 +321,10 @@ a:hover {
     .navbar {
         background-color: #30475E;
     }
+
+    hr {
+        color: white;
+    }
     
     .toggler-icon {
         background:#ff606dff;
@@ -342,7 +364,7 @@ a:hover {
         color: azure;
     }
     
-    @media (max-width: 1000px) {
+    /* @media (max-width: 1000px) {
         .navbar {
             background-color: #30475E;
         }
@@ -350,5 +372,5 @@ a:hover {
         .navbar-icon {
             color: #ff606dff;
         }
-    }
+    } */
 }

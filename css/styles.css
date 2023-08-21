@@ -246,7 +246,7 @@ video {
 
 .flex-block .flex-block-content {
     width: 50%;
-    min-width: 500px;
+    max-width: 90vw;
     display: flex;
     flex: 1;
     margin-right: 2em;

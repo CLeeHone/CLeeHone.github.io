@@ -26,6 +26,14 @@ hr {
     margin-bottom: 3em;
 }
 
+img {
+    border: 1px solid black;
+}
+
+video {
+    border: 1px solid black;
+}
+
 .navbar {
     background-color: rgb(207, 229, 207);
     padding-right: 5%;
@@ -110,6 +118,7 @@ hr {
     color: #3c5c3bff;
     font-family: Consolas;
     font-size: larger;
+    text-transform: uppercase;
     max-width: 20px;
     margin-left: 1.5em;
 }
@@ -147,11 +156,11 @@ hr {
 }
 
 .navbar-icon-img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-duration: 0.1s;
 }
 
-.navbar-nav>li {
+.navbar-nav > li {
     font-size: 2.5ch;
 }
 

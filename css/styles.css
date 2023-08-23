@@ -1,3 +1,7 @@
+* {
+    cursor: url(../images/arrow-cursor-light.svg), auto;
+}
+
 body {
     background-color: #f9f9f9ff;
     margin-bottom: 5%;
@@ -18,6 +22,7 @@ a:hover {
     color: rgb(99, 171, 99);
     text-decoration: underline;
     text-underline-offset: 6px;
+    cursor: url(../images/pointer-cursor-light.svg), auto;
 }
 
 hr {
@@ -114,6 +119,10 @@ video {
     padding-left: 2%;
 }
 
+.navbar-brand > picture > img:hover {
+    cursor: url(../images/pointer-cursor-light.svg), auto;
+}
+
 .navbar-icon {
     color: #3c5c3bff;
     font-family: Consolas;
@@ -127,13 +136,14 @@ video {
     color: #3c5c3bff;
     text-decoration: underline 2px;
     text-underline-offset: 6px;
+    cursor: url(../images/pointer-cursor-light.svg), auto;
 }
 
 .navbar-icon-img {
     max-width: 20px;
     margin-top: -5px;
     margin-left: 1.5em;
-    cursor: pointer;
+    cursor: url(../images/pointer-cursor-light.svg), auto;
 }
 
 #linkedin-icon {
@@ -315,6 +325,10 @@ video {
 
 @media (prefers-color-scheme: dark) {
 
+    * {
+        cursor: url(../images/arrow-cursor-dark.svg), auto;
+    }
+
     body {
         background-color: #222831;
     }
@@ -325,6 +339,11 @@ video {
     
     a:hover {
         color: #ff606dff;
+        cursor: url(../images/pointer-cursor-dark.svg), auto;
+    }
+
+    .navbar-brand > picture > img:hover {
+        cursor: url(../images/pointer-cursor-dark.svg), auto;
     }
     
     .navbar {
@@ -334,6 +353,10 @@ video {
     hr {
         color: white;
     }
+
+    .navbar-icon-img {
+        cursor: url(../images/pointer-cursor-dark.svg), auto;
+    }
     
     .toggler-icon {
         background:#ff606dff;
@@ -341,11 +364,13 @@ video {
     
     .navbar-icon {
         color: #ff606dff;
+        cursor: url(../images/pointer-cursor-dark.svg), auto;
     }
     
     .navbar-icon:hover {
         color: #ff606dff;
         text-decoration-color: #ff606dff;
+        cursor: url(../images/pointer-cursor-dark.svg), auto;
     }
     
     .fa.fa-linkedin, .fa.fa-github {
